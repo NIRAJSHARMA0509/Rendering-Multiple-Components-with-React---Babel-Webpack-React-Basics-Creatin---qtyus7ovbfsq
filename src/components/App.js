@@ -3,9 +3,9 @@ import '../styles/App.css';
 
 const App = () => {
   return (
-    <div id="main"></div>
+    <React.Fragment>
+    <h1 data-ns-test = "project-name">Expense Calculator</h1>
+    <p data-ns-test = "project-description">Built using ReactJS</p>
+    </React.Fragment>
   )
 }
-
-
-export default App;
